@@ -1,23 +1,23 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependencies
+node_modules/
 
-node_modules
-dist-ssr
+# Build
+dist/
+dist-ssr/
+
+# IDE / Editor
+.vscode/
+*.log
+
+# Env / Local
+*.env*
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# System
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Custom tools / previews
+setup-git-identity.ps1
+index.html
+github-pages-dns-zynxdata.csv

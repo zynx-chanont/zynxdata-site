@@ -2,7 +2,9 @@
 node_modules/
 
 # Build
-dist/
+-dist/
++# dist/ (Allow for GitHub Pages)
++!dist/
 dist-ssr/
 
 # IDE / Editor
